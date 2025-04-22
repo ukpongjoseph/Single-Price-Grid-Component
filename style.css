@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: "Karla", sans-serif;
+}
+.parent-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    height: 100vh;
+    width: 400px;
+}
+.cl1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 600px;
+     max-width: 1200px;
+    background-color: white;
+}
+.p2{
+    display: flex;
+    flex-direction: row;
+    height: 45vh;
+    width: 100%;
+    min-width: 600px;
+    max-width: 1200px;
+}
+.ch1{
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ch2{
+    background-color: hsla(179, 62%, 43%, 0.7);
+}.cl1 h1{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 30px;
+}
+.cl1 h3{
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 20px;
+}
+.cl1 p{
+    color: gray;
+    line-height: 30px;
+}
+.ch1 h3{
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+.dollar{
+    color: white;
+    font-size: 30px;
+    font-family: "Karla", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.dollar span{
+    font-size: 12px;
+}
+.per{
+    color: gray;
+}
+.last{
+    color: white;
+    
+}
+button{
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    height: 30px;
+    width: 80%;
+    border: none;
+    font-family: "Karla", sans-serif;
+    font-size: 19px;
+    border-radius: 3px;
+
+}
+.ch2 h3{
+    color: white;
+    font-family: "Karla", sans-serif;
+}
+.ch2{
+    width: 80%;
+    padding: 30px;
+}
+.ch1{
+    width: 80%;
+}
+.ch2 p{
+    color: white;
+    line-height: 30px;
+}
+
+@media (max-width: 600px){
+    .cl1{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin-right: 120px;
+    } 
+    .p2{
+        display: flex;
+        flex-direction: column;
+    }
+    .ch1{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        
+    }
+    .per{
+        padding-left: 30px;
+    }
+    .ch2{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+        
+    }
+    footer{
+        display: none;
+    }
+}
